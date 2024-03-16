@@ -1,0 +1,326 @@
+body{
+    font-family: "Truculenta", sans-serif;
+}
+
+header{
+    background-color: yellow;
+    background-image: url(fondos/fond6.png);
+
+    padding: 10px 10px;
+}
+.cabezahome{
+    background-color: yellow;
+    background-image: url(fondos/fond6.png);
+
+    padding: 10px 0px;
+}
+.cabezacontacto{
+    width: 100%;
+   
+    background-image: url(fondos/fond6.png);
+    padding: 10px 10px;
+}
+.caja{
+    width: 1000px;
+    position: relative;
+    margin: 5 auto;
+}
+.caja1{
+    width: 1000px;
+    position: relative;
+    margin: 5 auto;
+
+}
+.listahome{
+    position: relative;
+    top: 3px;
+    width: 500px;
+    right: 0;
+    text-align: center;
+
+}
+nav{
+    position: absolute;
+    top: 120px;
+    width: 500px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin:0 0 0 15px;
+    font-size: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color:rgb(6, 6, 244);
+    text-decoration: underline;
+}
+
+
+.catego{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.catego li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: white;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid rgb(20, 212, 52);
+    border-radius: 10px;
+    
+}
+.catego li:hover{
+
+    border-color:rgb(6, 6, 244);
+   
+    
+}
+
+.catego li:active{
+    border-color:rgb(244, 6, 177);
+}
+.catego h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.catego li:hover h2{
+    font-size: 35px;
+
+}
+.descrip{
+    font-size: 18px;
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background: url(fondos/fond6.png);
+}
+.copyright{
+    font-size: 13px;
+    margin: 5px;
+}
+
+form{
+    margin: 40px 40px;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.enviar:hover{
+    background:green;
+    transform: scale(1.2) ;
+}
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 2px solid black;
+    padding: 8px 15px;
+}
+/*CSS para nuestra Home*/
+
+.banner{
+    width:100%;
+}
+/*
+SELECTORES AVANZADOS
+main > p{
+    background: red;
+}
+
+img + p{
+    background: rgb(0, 255, 247);
+}
+
+img ~ p{
+    background: rgb(0, 21, 255);
+}
+.principal p:not(#mision){
+    background: rgb(164, 212, 6);
+}*/
+.principal{
+    padding: 3em 0;
+  
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    clear: left;
+    
+}
+
+
+
+.principal p{
+    margin: 0 0 1em;
+    font-size: 2em;
+    text-align: center;
+    
+    
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+
+}
+
+.llaveros{
+    width: 190px;
+    float: left;
+    margin: 0 20px 20px 20px;
+
+}
+.fotos{
+    width: 190px;
+    float: right;
+    margin: 0 0 20px 20px;
+
+}
+
+.ubicacion p{
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.ubicacion{
+    padding: 3em 0;
+    background: linear-gradient(white,rgb(255, 148, 216));
+  
+
+}
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+.diferenciales{
+    padding: 3em 0;
+    background: rgb(255, 148, 216);
+   
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+ 
+}
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.imagen-Diferenciales:hover{
+    opacity: 0.3;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px rgb(255, 92, 52);
+   
+}
+.items{
+    line-height: 1.5;
+    font-style: italic;
+    text-align: justify;
+    font-size: 21px;
+
+}
+.items:before{
+    content:"🌻";
+}
+.items:first-child{
+    font-weight: bold;
+}
+
+
+.imagen-Diferenciales{
+    width: 60%;
+  
+ 
+
+}
+.video{
+    text-align: video;
+    width: 460px;
+    margin: 0 20px 20px 20px;
+    display:inline;
+    
+   
+    
+    
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido,.contenido-diferenciales, .video{
+        width: auto
+    }
+    .lista-diferenciales , .imagen-Diferenciales{
+        width: 100%;
+    }
+
+} 
